@@ -68,7 +68,7 @@ class _FQHomeContentState extends State<FQHomeContent> {
           ),
           color: Colors.purple,
           onPressed: () {
-            this.setState(() {
+            setState(() {
               _counter--;
             });
           },
